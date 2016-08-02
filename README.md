@@ -2,7 +2,7 @@
 https://github.com/johnjg/project_final3_gotschall_john.git
 
 # Live Site Link:
-http://www.johnjg.com/resume
+http://www.johnjg.com/final3/
 
 # Resources:
 - http://srobbin.com/jquery-plugins/backstretch/
