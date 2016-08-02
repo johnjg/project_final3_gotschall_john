@@ -1,0 +1,241 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.site-container {
+    max-width: 1200px;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #5b5b5b;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: #222222;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+p,
+ul,
+ol {
+    margin-top: 0;
+    line-height: 180%;
+}
+
+a {
+    color: #0000ff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #45698e;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#wrapper {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #76674e;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#header {
+    margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+    padding-top: 10px;
+}
+
+
+/* Menu */
+
+.menu {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+.menu a {
+    display: block;
+    line-height: 50px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 0 20px 0 20px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #45698e;
+    border: none;
+    background-color: #d4cec4;
+}
+
+.menu a:hover,
+.menu .current_page_item a {
+    background-color: #45698e;
+    text-decoration: none;
+    color: #d4cec4;
+}
+
+@media all and (min-width: 600px) {
+    nav li {
+        display: inline-block;
+        width: 50%;
+    }
+}
+@media all and (min-width: 850px) {
+    nav li {
+        width: calc(100% / 3);;
+    }
+}
+@media all and (min-width: 1100px) {
+    nav li {
+        width: calc(100% / 6);;
+    }
+}
+
+/* Banner */
+
+.banner {
+    margin: 0 auto;
+    background: url("../img/dropshadow.png") no-repeat left bottom;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Page */
+
+#page {
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+}
+
+/* Content */
+
+.post {
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 10px solid #d4cec4;
+    background-color: white;
+}
+
+.post .title {
+    padding: 25px 0 10px 0;
+    letter-spacing: -1px;
+    color: #76674e;
+}
+
+@media (min-width: 950px) {
+    #content {
+        float: left;
+        margin-right: 1.5em;
+        width: calc(100% / 3 * 2);
+    }
+
+    #sidebar {
+        float: right;
+        width: calc(100% / 3 - 1.5em);
+    }
+}
+
+/* Sidebar */
+
+#sidebar section {
+    padding: 10px 20px 10px 20px;
+    background-color: #d4cec4;
+    margin-bottom: 40px;
+}
+
+#sidebar h3 {
+    padding: 10px 0 20px 0;
+    letter-spacing: -0.5px;
+    font-size: 1.8em;
+    color: #45698e;
+}
+
+#sidebar p {
+    padding: 20px 0 0 0;
+    text-align: justify;
+}
+
+/* Footer */
+
+#footer {
+    margin: auto;
+    padding-bottom: 10px;
+}
