@@ -238,3 +238,9 @@ img {
     margin: auto;
     padding-bottom: 10px;
 }
+
+/* Hides Tooltip Template */
+
+.tooltip_templates {
+    display: none;
+}
