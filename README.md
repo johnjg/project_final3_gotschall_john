@@ -7,6 +7,8 @@ http://www.johnjg.com/final3/
 # Resources:
 - http://iamceege.github.io/tooltipster/
 - I used the Tooltipster jQuery plugin to add a tool tip to the house band image in the home page sidebar. The tool top informs users that they can click the image to visit the house band page. The tool tip is formatted from within a hidden div.
+- http://hilios.github.io/jQuery.countdown/
+- I used the Final Countdown jQuery Plugin to add the "Inquisitor Arriving" countdown to the sidebar.
 - https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L107-L169
 - I used the visually hidden class from the above resource to hide semantic section titles that I did not want to display.
 - https://validator.w3.org
