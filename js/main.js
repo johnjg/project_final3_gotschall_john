@@ -14,8 +14,8 @@ $(document).ready(function () {
     var theForm = document.getElementById('contact');
     theForm.addEventListener('submit', function (eventInfo) {
         eventInfo.preventDefault();
-        var myElement = document.createElement('article');
+        var myElement = document.createElement('div');
         myElement.innerHTML = '<h1>Your encrypted transmision has been successfully submitted.</h1>';
-        document.getElementsByClassName('container')[0].appendChild(myElement);
+        document.getElementsByClassName('encoder')[0].appendChild(myElement);
     });
 });
