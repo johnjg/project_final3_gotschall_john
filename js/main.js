@@ -8,14 +8,14 @@ $(document).ready(function () {
             event.strftime('%D days %H:%M:%S')
      );
     });
-    // The following code targets the contact form and listens for the submit event,
+    // The following code targets the TRANSMISSION ENCODER form and listens for the submit event,
     // interrupts the form's default submit function,
-    // and generates an HTML message that encorporates the form field input.
+    // and then generates an HTML message that displays the form field input on the page below the form.
     var theForm = document.getElementById('contact');
     theForm.addEventListener('submit', function (eventInfo) {
         eventInfo.preventDefault();
         var myElement = document.createElement('div');
-        myElement.innerHTML = '<h1>Your encrypted transmision has been successfully submitted.</h1>';
+        myElement.innerHTML = '<h4>Your encrypted transmission has been successfully submitted.</h4>';
         document.getElementsByClassName('encoder')[0].appendChild(myElement);
     });
 });
