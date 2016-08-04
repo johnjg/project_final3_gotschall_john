@@ -270,3 +270,7 @@ input[type=text] {
     width: 100%;
     border: 2px solid #45698e;
 }
+
+.highlight {
+    border: 10px solid white;
+}

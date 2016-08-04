@@ -19,3 +19,5 @@ http://www.johnjg.com/final3/
 - My version of Atom reveals no issues at the time of submission.
 - There are no errors visible in Google Dev Tools at the time of submission.
 - Max-width of 100% was used to style img tags to ensure that all accent images in the sidebar and the logo collapse responsively, but this is not used as a media query.
+- I used a custom JavaScript code that targets the TRANSMISSION ENCODER form and listens for the submit event, interrupts the form's default submit function, and then generates an HTML message that displays the form field input on the page below the form.
+- I used a custom jQuery code that targets the post class and listens for the hover event, and then generates a new class called highlight that has been styled in main.css to change the border color of the post class to white. The class is removed on when hover ends.
