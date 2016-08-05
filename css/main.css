@@ -148,6 +148,14 @@ img {
         display: inline-block;
         width: 50%;
     }
+    .lefthalf {
+        float: left;
+        width: 49%;
+    }
+    .righthalf {
+        float: right;
+        width: 49%;
+    }
 }
 @media all and (min-width: 850px) {
     .menu li {
@@ -263,7 +271,10 @@ input[type=submit] {
     color: #d4cec4;
 }
 
-input[type=text] {
+input[type="text"],
+input[type="email"],
+textarea,
+#message {
     line-height: 50px;
     padding: 5px;
     width: 100%;
@@ -276,4 +287,37 @@ input[type=text] {
 
 .response {
     margin-top: 10px;
+}
+
+
+input,
+select,
+textarea {
+    border: 3px solid black;
+}
+
+#transmit {
+    display: block;
+    line-height: 50px;
+    margin-top: 10px;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+    background-color: #45698e;
+    color: #d4cec4;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
 }
