@@ -13,6 +13,10 @@ http://www.johnjg.com/final3/
 - I used the visually hidden class from the above resource to hide semantic section titles that I did not want to display.
 - https://validator.w3.org
 - I used the above resource to validate my source code
+- http://www.starwars.com/databank/boonta-eve-classic-podracer-pilots
+- http://starwars.wikia.com/wiki/Chalmun's_Spaceport_Cantina
+-
+- i used the above resources for Star Wars text content, photos and information.
 
 # Comments:
 - I used the clearfix method to correct an issue with floats
