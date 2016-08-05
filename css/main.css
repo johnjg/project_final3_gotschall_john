@@ -274,3 +274,7 @@ input[type=text] {
 .highlight {
     border: 10px solid white;
 }
+
+.response {
+    margin-top: 10px;
+}

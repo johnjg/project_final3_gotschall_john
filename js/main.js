@@ -15,7 +15,7 @@ $(document).ready(function () {
     theForm.addEventListener('submit', function (eventInfo) {
         eventInfo.preventDefault();
         var myElement = document.createElement('div');
-        myElement.innerHTML = '<h4>Your encrypted transmission has been successfully submitted.</h4>';
+        myElement.innerHTML = '<h4 class="response">Your encrypted transmission has been successfully submitted.</h4>';
         document.getElementsByClassName('encoder')[0].appendChild(myElement);
     });
     // The following jQuery code targets the post class and listens for the hover event,
