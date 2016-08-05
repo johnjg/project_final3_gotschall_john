@@ -15,13 +15,15 @@ http://www.johnjg.com/final3/
 - I used the above resource to validate my source code
 - http://www.starwars.com/databank/boonta-eve-classic-podracer-pilots
 - http://starwars.wikia.com/wiki/Chalmun's_Spaceport_Cantina
--http://starwars.wikia.com/wiki/Sarlacc
-- i used the above resources for Star Wars text content, photos and information.
+- http://starwars.wikia.com/wiki/Sarlacc
+- https://en.wikipedia.org/wiki/Figrin_D%27an_and_the_Modal_Nodes
+- i used the above resources for Star Wars lore, text and images..
 
 # Comments:
 - I used the clearfix method to correct an issue with floats
 - My version of Atom reveals no issues at the time of submission.
 - There are no errors visible in Google Dev Tools at the time of submission.
+- List items in the navigation menu are all on one line. This is to avoid spacing issues that result when hidden linebreaks between line items combine to form a space character between navigation menu items, resulting in responsive button alignment issues. Placing the list items on one line removes the linebreaks and space characters and corrects this issue.
 - Max-width of 100% was used to style img tags to ensure that all accent images in the sidebar and the logo collapse responsively, but this is not used as a media query.
 - I used a custom JavaScript code that targets the TRANSMISSION ENCODER form and listens for the submit event, interrupts the form's default submit function, and then generates an HTML message that displays the form field input on the page below the form.
 - I used a custom jQuery code that targets the post class and listens for the hover event, and then generates a new class called highlight that has been styled in main.css to change the border color of the post class to white. The class is removed on when hover ends.
